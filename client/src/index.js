@@ -9,6 +9,10 @@ import App from "./components/App";
 
 import reducers from "./reducers";
 
+//<used this to test an api call for sending emails with sendgrid>
+//import axios from "axios";
+//window.axios = axios;
+
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 ReactDom.render(
