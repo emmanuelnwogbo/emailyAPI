@@ -21,8 +21,7 @@ passport.use(
 		{
 			clientID: keys.googleClientID,
 			clientSecret: keys.googleClientSecret,
-			callbackURL:
-				"https://fathomless-dawn-96284.herokuapp.com/auth/google/callback"
+			callbackURL: keys.callbackURL
 			//proxy: true
 		},
 		/*(accessToken, refreshToken, profile, done) => {
